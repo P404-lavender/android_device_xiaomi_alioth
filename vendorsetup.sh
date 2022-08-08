@@ -4,9 +4,9 @@ rm -rf hardware/qcom-caf/sm8250/display && git clone https://github.com/alioth-o
 rm -rf hardware/qcom-caf/sm8250/media && git clone https://github.com/alioth-org/hardware_qcom-caf_sm8250_media -b twelve hardware/qcom-caf/sm8250/media
 rm -rf hardware/qcom-caf/sm8250/audio && git clone https://github.com/alioth-org/hardware_qcom-caf_sm8250_audio -b twelve hardware/qcom-caf/sm8250/audio
 
-#Dora clang
+#SD clang
 
-git clone https://gitlab.com/zlatanr/dora-clang-1.git prebuilts/clang/host/linux-x86/dora-clang
+git clone https://github.com/VoidUI/prebuilts_clang_host_linux-x86_clang-sdclang -b aosp-12.1 prebuilts/clang/host/linux-x86/clang-sdclang
 
 #BsgCam
 
